@@ -1,0 +1,59 @@
+do_overflow_tests call:[test_overflow < char >,test_overflow < double >,test_overflow < float >,test_overflow < int >,test_overflow < long >,test_overflow < long double >,test_overflow < long long >,test_overflow < short >,test_overflow < unsigned char >,test_overflow < unsigned int >,test_overflow < unsigned long >,test_overflow < unsigned long long >,test_overflow < unsigned short >,test_overflow < wchar_t >] noreturn:[test_overflow < long double >]
+do_underflow_tests call:[test_underflow < char >,test_underflow < double >,test_underflow < float >,test_underflow < int >,test_underflow < long >,test_underflow < long double >,test_underflow < long long >,test_underflow < short >,test_underflow < unsigned char >,test_underflow < unsigned int >,test_underflow < unsigned long >,test_underflow < unsigned long long >,test_underflow < unsigned short >,test_underflow < wchar_t >] noreturn:[test_underflow < long double >]
+main call:[do_overflow_tests,do_underflow_tests,string]
+test_underflow < char > call:[max,name,subtract_numbers < char >,typeid]
+test_underflow < wchar_t > call:[max,name,subtract_numbers < wchar_t >,typeid]
+test_underflow < short > call:[max,name,subtract_numbers < short >,typeid]
+test_underflow < int > call:[max,name,subtract_numbers < int >,typeid]
+test_underflow < long > call:[max,name,subtract_numbers < long >,typeid]
+test_underflow < long long > call:[max,name,subtract_numbers < long long >,typeid]
+test_underflow < unsigned char > call:[max,name,subtract_numbers < unsigned char >,typeid]
+test_underflow < unsigned short > call:[max,name,subtract_numbers < unsigned short >,typeid]
+test_underflow < unsigned int > call:[max,name,subtract_numbers < unsigned int >,typeid]
+test_underflow < unsigned long > call:[max,name,subtract_numbers < unsigned long >,typeid]
+test_underflow < unsigned long long > call:[max,name,subtract_numbers < unsigned long long >,typeid]
+test_underflow < float > call:[max,name,subtract_numbers < float >,typeid]
+test_underflow < double > call:[max,name,subtract_numbers < double >,typeid]
+test_underflow < long double > call:[max,name,subtract_numbers < long double >,typeid]
+test_overflow < char > call:[add_numbers < char >,max,name,typeid]
+test_overflow < wchar_t > call:[add_numbers < wchar_t >,max,name,typeid]
+test_overflow < short > call:[add_numbers < short >,max,name,typeid]
+test_overflow < int > call:[add_numbers < int >,max,name,typeid]
+test_overflow < long > call:[add_numbers < long >,max,name,typeid]
+test_overflow < long long > call:[add_numbers < long long >,max,name,typeid]
+test_overflow < unsigned char > call:[add_numbers < unsigned char >,max,name,typeid]
+test_overflow < unsigned short > call:[add_numbers < unsigned short >,max,name,typeid]
+test_overflow < unsigned int > call:[add_numbers < unsigned int >,max,name,typeid]
+test_overflow < unsigned long > call:[add_numbers < unsigned long >,max,name,typeid]
+test_overflow < unsigned long long > call:[add_numbers < unsigned long long >,max,name,typeid]
+test_overflow < float > call:[add_numbers < float >,max,name,typeid]
+test_overflow < double > call:[add_numbers < double >,max,name,typeid]
+test_overflow < long double > call:[add_numbers < long double >,max,name,typeid]
+subtract_numbers < char >
+subtract_numbers < wchar_t >
+subtract_numbers < short >
+subtract_numbers < int >
+subtract_numbers < long >
+subtract_numbers < long long >
+subtract_numbers < unsigned char >
+subtract_numbers < unsigned short >
+subtract_numbers < unsigned int >
+subtract_numbers < unsigned long >
+subtract_numbers < unsigned long long >
+subtract_numbers < float >
+subtract_numbers < double >
+subtract_numbers < long double >
+add_numbers < char >
+add_numbers < wchar_t >
+add_numbers < short >
+add_numbers < int >
+add_numbers < long >
+add_numbers < long long >
+add_numbers < unsigned char >
+add_numbers < unsigned short >
+add_numbers < unsigned int >
+add_numbers < unsigned long >
+add_numbers < unsigned long long >
+add_numbers < float >
+add_numbers < double >
+add_numbers < long double >

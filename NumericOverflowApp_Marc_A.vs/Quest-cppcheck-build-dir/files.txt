@@ -1,0 +1,4 @@
+NumericOverflowApp1.a1:Debug|Win32:C:/Users/Marc Aradillas/source/repos/ConsoleApplication1/NumericOverflowApp1.cpp
+NumericOverflowApp1.a2:Release|Win32:C:/Users/Marc Aradillas/source/repos/ConsoleApplication1/NumericOverflowApp1.cpp
+NumericOverflowApp1.a3:Debug|x64:C:/Users/Marc Aradillas/source/repos/ConsoleApplication1/NumericOverflowApp1.cpp
+NumericOverflowApp1.a4:Release|x64:C:/Users/Marc Aradillas/source/repos/ConsoleApplication1/NumericOverflowApp1.cpp

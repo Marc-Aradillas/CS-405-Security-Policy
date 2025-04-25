@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="1">
+    <builddir>Quest-cppcheck-build-dir</builddir>
+    <importproject>ConsoleApplication1.vcxproj</importproject>
+    <analyze-all-vs-configs>true</analyze-all-vs-configs>
+    <check-headers>true</check-headers>
+    <check-unused-templates>true</check-unused-templates>
+    <inline-suppression>true</inline-suppression>
+    <max-ctu-depth>2</max-ctu-depth>
+    <max-template-recursion>100</max-template-recursion>
+    <vs-configurations>
+        <config>Debug</config>
+        <config>Release</config>
+    </vs-configurations>
+    <check-level-normal/>
+    <project-name>Quest</project-name>
+</project>
